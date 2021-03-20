@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(34, 34, 100);
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__logo{
+    display: flex;
+    color: white;
+}
+
+
+
+.navbar__home{
+    padding: 8px 12px;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar__menu > ul{
+    display: flex;
+}
+
+.navbar__menu li{
+    padding: 12px 8px;
+}
+
+.navbar__icons > ul{
+    display: flex;
+}
+
+.navbar__icons li{
+    padding: 12px 8px;
+}
